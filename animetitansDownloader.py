@@ -96,12 +96,7 @@ def getEpList(url):
 	epList = [ x ['href'] for x in allEpListCode.find_all('a')]
 	return epList
 
-
-
 animeUrl = u'https://animetitans.com/anime/ousama-ranking/'
-
-
-
 
 # ****************************************************************************
 # *                              Download all ep                             *
